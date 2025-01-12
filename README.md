@@ -24,3 +24,11 @@ The processor follows a classic multicycle architecture with the following compo
 - **Hardware Description Language**: SystemVerilog
 - **Simulator**: ModelSim, QuestaSim, or other SystemVerilog-compatible simulators
 - **Waveform Viewer**: GTKWave or equivalent
+
+## Supported Instructions
+This processor supports the following RISC-V instructions:
+- **Arithmetic and Logical**: `ADD`, `SUB`, `AND`, `OR`, `XOR`, `SLT`, `SLL`, `SRL`, `SRA` 
+- **Memory Access**: `LW`, `SW`
+- **Branching**: `BEQ`, `BNE`
+- **Immediate Operations**: `ADDI`, `ORI`
+

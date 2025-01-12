@@ -29,6 +29,19 @@ The processor follows a classic multicycle architecture with the following compo
 This processor supports the following RISC-V instructions:
 - **Arithmetic and Logical**: `ADD`, `SUB`, `AND`, `OR`, `XOR`, `SLT`, `SLL`, `SRL`, `SRA` 
 - **Memory Access**: `LW`, `SW`
-- **Branching**: `BEQ`, `BNE`
+- **Branching**: `BEQ`, `JAL`
 - **Immediate Operations**: `ADDI`, `ORI`
 
+# Installation
+1. Download all the necessary file
+    - [top.sv](top.sv): Main code
+    - [riscv_testbench.sv](riscv_testbench.sv): Testbench to confirm the output. Modify to how you want to use it.
+    - [riscvtest.s](riscvtest.s): Test the RISC-V processor. Modify to how you want to use it.
+    - [riscvtest.txt](riscvtest.txt): Machine code in assembly. Modify to how you want to use it.
+2. Open the `top.sv` in your preferred software such as Quartis, and compile if you modify any code.
+3. Open the project in your preferred simulator, in this case I used ModelSim.
+4. Run the testbench files in the `testbench` directory to verify functionality.
+5. Analyze the waveform output using a waveform viewer.
+
+# Modules and Diagrams
+!(Figure 1: Complete multicycle processor )[Images/Figure1_Complete_multicycle_processor.PNG]

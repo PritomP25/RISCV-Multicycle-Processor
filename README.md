@@ -30,7 +30,7 @@ This processor supports the following RISC-V instructions:
 - **Arithmetic and Logical**: `ADD`, `SUB`, `AND`, `OR`, `XOR`, `SLT`, `SLL`, `SRL`, `SRA` 
 - **Memory Access**: `LW`, `SW`
 - **Branching**: `BEQ`, `JAL`
-- **Immediate Operations**: `ADDI`, `ORI`
+- **Immediate Operations**: `ADDI`
 
 # Installation
 1. Download all the necessary file
